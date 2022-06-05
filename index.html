@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./skills.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./contact-me.css">
+    <script src="./index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit | PortFolio</title>
+</head>
+
+<body>
+
+    <section class="homeSection">
+        <nav class="navbar">
+            <div class="logo">
+                <h1><span class="color">Mohit's</span> PortFolio</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact-me-section">Contact Me</a></li>
+            </ul>
+
+        </nav>
+        <div class="main">
+            <div id="mainContent1">
+                <p>Hey <span class="color">,</span> I am <span class="bold color">Mohit.</span></p>
+                <h2>I build value through design ,</h2>
+                <p> I am Indian designer who loves building digital products.</p>
+                <p class="color learnMore"><a href="https://www.geeksforgeeks.org/web-development/" class="anchor color">Learn More.</a></p>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section class="about" id="about-me">
+        <div class="myImage"></div>
+        <div class="aboutMe">
+            <h1>About Me</h1>
+            <p id="Dev-Des">Developer <span class="color">&</span> Designer</p>
+            <p id="about-me-content">Hi There, I'm Mohit and i am Front-End Web Developer. It's been a year, I'm working as web developer.I have
+                 developed many website and also provided my services to some students by getting their projects ready 
+                 ASAP as a freelancer I have been part of some very good web design projects.</p>
+        </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+        <h1>My <span class="color">Skills</span></h1>
+       
+        <div class="progressBar"><div id="innerPB1"></div></div>
+        <p class="subjects">HTML: 85%</p>
+        <div class="progressBar"><div id="innerPB4"></div></div>
+        <p class="subjects">React JS: 55%</p>
+        <div class="progressBar"><div id="innerPB2"></div></div>
+        <p class="subjects">CSS: 75%</p>
+        <div class="progressBar"><div id="innerPB3"></div></div>
+        <p class="subjects">Java Script: 60%</p>
+
+
+
+    </section>
+    <section class="contact-me" id="contact-me-section">
+ <h1 id="contact-me">Contact <span class="color">Me</span></h1>
+<div class="formDiv">
+    <form action="" onsubmit="return validation()">
+        <input type="text" name="fName" id="fName" placeholder="Enter First Name" class="boxes ">
+
+        <input type="text" name="lName" id="lName" placeholder="Enter Last Name" class="boxes ">
+        <br>
+        <span id="fNameErr" class="rErrors"></span>
+        <span id="lNameErr" class="lErrors"></span>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" class="boxes ">
+
+        <input type="text" name="phone" id="phone" placeholder="Enter Your Phone no.(+91)" class="boxes ">
+        <br>
+        <span id="emailErr" class="rErrors"></span>
+        <span id="phoneErr" class="lErrors"></span>
+        <br>
+        <!-- passwords -->
+        <input type="password" name="pass" id="pass" placeholder="Enter Your Password" class="boxes ">
+        <input type="password" name="cpass" id="cpass" placeholder="Confirm Your Password" class="boxes ">
+        <br>
+        <span id="passErr" class="rErrors"></span>
+        <span id="cPassErr" class="lErrors"></span>
+        <br>
+        <!-- Submit Button -->
+        <input type="submit" value="SUBMIT" id="submitBtn">
+    </form>
+</div>
+
+    </section>
+    <footer>
+		<p>Mohit Khatri</p>
+		<p>For more <span class="color">HTML</span>, <span class="color">CSS</span> and <span class="color">JS</span> Projects , Stay Connected </p><br>
+	
+		<p class="end"> &#169; CopyRight By Mohit Khatri</p>
+	</footer>
+
+</body>
+
+</html>
